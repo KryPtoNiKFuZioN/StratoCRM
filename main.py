@@ -13,7 +13,7 @@ ctk.set_default_color_theme("blue")  # Themes: "blue", "green", "dark-blue"
 
 app = ctk.CTk()
 app.geometry("800x600")
-app.title("StratoCRM")
+app.title("Strato Customer Relationship Manager")
 
 # Folder to store customer files
 CUSTOMER_FOLDER = "customers"
