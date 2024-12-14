@@ -12,7 +12,7 @@ ctk.set_appearance_mode("System")  # Options: "System", "Dark", "Light"
 ctk.set_default_color_theme("blue")  # Themes: "blue", "green", "dark-blue"
 
 app = ctk.CTk()
-app.geometry("800x600")
+app.geometry("1920x1080")
 app.title("Strato Customer Relationship Manager")
 
 # Folder to store customer files
@@ -44,6 +44,9 @@ def load_customer_data(account_number):
 def create_customer():
     """Create a new customer and save their details."""
     name = name_entry.get()
+    address = address_entry.get()
+    eircode = eircode_entry.get()
+
     email = email_entry.get()
     phone = phone_entry.get()
 
